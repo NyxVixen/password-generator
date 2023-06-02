@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: start;
     flex-direction: column;
-    background-color: #0a1128;
+    background: linear-gradient(45deg, #081c15, #1b4332, #2d6a4f, #40916c);
     color: #fefcfb;
     margin-left: 50px;
     padding-top: 50px;
@@ -42,6 +42,8 @@ h1:nth-last-of-type(1) {
     color: #09bc8a;
     margin: -20px 0;
     padding-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: #fdf8f8;
 }
 
 p {
@@ -65,4 +67,11 @@ button {
     border: none;
     border-radius: 5px;
     font-size: 16px;
+}
+
+button:hover {
+    transform: scale(102%);
+    transition: 300ms;
+    box-shadow: 1px 1px 5px #40916c;
+    cursor: pointer;
 }
