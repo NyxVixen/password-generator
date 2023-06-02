@@ -7,7 +7,11 @@ $ npm install
 $ npm start
 ````
 
-Head over to https://vitejs.dev/ to learn more about using vite
+***Password Generator***
+
+This was created for the frontend developer path through Scrimba. When using this app, you should be able to click the *Generate passwords* button and have it generate two random, 15 character length, passwords.
+
+```
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
@@ -19,3 +23,4 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
 Happy Coding!
+```
